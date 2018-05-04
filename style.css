@@ -20,10 +20,12 @@ body{
 .sea{
     height:20%;
     width: 100%;
-    background-color: rgb(35, 35, 241);
+    background-color: rgb(60, 60, 233);
     z-index: 100;
     margin: auto;
     position: absolute;
+    box-shadow: 0 0 20px 10px rgb(2, 46, 240), 0 0 20px 3px rgb(33, 120, 235) inset;
+    
     
 }
 @keyframes searedcolor{
@@ -158,10 +160,16 @@ body{
     margin-left: 100px;
     margin-top: 20px;
     animation: sunmove 20s infinite,suncolor 20s infinite;
+    box-shadow: 0 0 60px 20px
+#FFC80B
+, 0 0 20px 3px
+#FFC80B
+inset;
     
     
     
 }
+
 
 @keyframes wavemove{
     0%{
@@ -282,6 +290,7 @@ body{
     z-index: 51;
     margin-top: -0.3%;
     animation: horizoncolor 20s infinite;
+    box-shadow: 0 0 60px 20px #FFC80B, 0 0 20px 3px #FFC80B inset;
 }
 .balloon{
     z-index: 160;
